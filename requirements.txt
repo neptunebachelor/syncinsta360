@@ -1,0 +1,15 @@
+# Python dependencies for the Insta360 Sync project
+
+# For cross-platform Wi-Fi control
+# Note: Further platform-specific handling will be required.
+pywifi
+
+# For making HTTP requests to the camera (if needed as a fallback or for the API)
+requests
+
+# For interacting with the camera's Protobuf-based API (dependency of insta360-wifi-api)
+# It's specifically required by the insta360-wifi-api library.
+protobuf
+
+# For displaying progress bars during download
+tqdm
